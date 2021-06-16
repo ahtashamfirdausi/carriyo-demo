@@ -134,7 +134,7 @@ resource "aws_instance" "carriyo-server" {
     user_data = file("entry-script.sh")
 
     tags ={
-        Name: "${var.env_prefix}-server"
+        Name: "${var.env_prefix}-carriyo-server"
     }
   
 }
