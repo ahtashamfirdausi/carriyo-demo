@@ -52,6 +52,6 @@ resource "aws_instance" "carriyo-server" {
     key_name = "carriyo-key"
     user_data = file("entry-script.sh")
     tags ={
-        Name: "${var.env_prefix}-carriyo-server"
+        Name: "${var.env_prefix}-Magento"
     }
 }
